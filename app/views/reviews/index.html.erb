@@ -1,0 +1,9 @@
+<ol id="reviews">
+  <header id="content-header">
+    <h1>Reviews for <%= link_to(@movie.title, @movie) %></h1>
+  </header>
+
+  <%= render 'shared/reviews' , object: @reviews %>
+
+</ol>
+
